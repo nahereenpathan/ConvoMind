@@ -1,0 +1,80 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Alembic cache
+alembic/__pycache__/
+
+# Logs
+*.log
+logs/
+
+# Docker volumes / scratch
+scratch/
+
+
+# Node.js / Frontend
+node_modules/
+dist/
+build/
+coverage/
+.npm/
+
+# Additional environment files
+.env.*
+!.env.example
+!.env.*.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python test and tooling cache
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Uploads and generated meeting files
+uploads/
+recordings/
+transcripts/
+
+# Secrets and credentials
+secrets/
+credentials/
+*.pem
+*.key
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+Local audio test recordings
+recording_*.wav
+test_*.wav

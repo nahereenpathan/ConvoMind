@@ -1,0 +1,12 @@
+{
+  "venvPath": "../..",
+  "venv": ".venv",
+  "pythonVersion": "3.12",
+  "pythonPlatform": "Windows",
+  "extraPaths": [
+    "."
+  ],
+  "include": [
+    "."
+  ]
+}
